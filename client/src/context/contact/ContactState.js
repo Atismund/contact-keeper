@@ -35,7 +35,7 @@ const ContactState = (props) => {
     } catch (err) {
       dispatch({
         type: CONTACT_ERROR,
-        //payload: err.respons.msg,
+        payload: err.response.msg,
       });
     }
   };
@@ -54,7 +54,7 @@ const ContactState = (props) => {
     } catch (err) {
       dispatch({
         type: CONTACT_ERROR,
-        payload: err.respons.msg,
+        payload: err.response.msg,
       });
     }
   };
@@ -68,7 +68,7 @@ const ContactState = (props) => {
     } catch (err) {
       dispatch({
         type: CONTACT_ERROR,
-        payload: err.respons.msg,
+        payload: err.response.msg,
       });
     }
   };
@@ -91,7 +91,7 @@ const ContactState = (props) => {
     } catch (err) {
       dispatch({
         type: CONTACT_ERROR,
-        payload: err.respons.msg,
+        payload: err.response.msg,
       });
     }
   };
